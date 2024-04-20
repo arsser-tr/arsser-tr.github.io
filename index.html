@@ -3,21 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İletişim Formu</title>
+    <title>ARSSER.tr Resmi Web Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2>İletişim Formu</h2>
-    <form action="submit.php" method="post">
-        <label for="name">İsim:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+    <div class="background-slider">
+        <div class="slide active">
+            <img src="ARSSERlogo00.jpg" alt="Image 1">
+        </div>
 
-        <label for="email">E-posta:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <!-- İstediğiniz kadar slide ekleyebilirsiniz -->
+    </div>
 
-        <label for="message">Mesaj:</label><br>
-        <textarea id="message" name="message" rows="4" required></textarea><br><br>
-
-        <input type="submit" value="Gönder">
-    </form>
+    <script src="scripts.js"></script>
 </body>
 </html>
