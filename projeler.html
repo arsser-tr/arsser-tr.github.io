@@ -52,6 +52,15 @@
       rel="stylesheet"
       href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
     />
+    <style>
+      [data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {
+          display: flex;
+        }
+
+        [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {
+          transform: rotate(90deg);
+        }
+    </style>
   </head>
   <body>
     <link rel="stylesheet" href="./style.css" />
@@ -100,12 +109,6 @@
           </header>
         </div>
         <div class="navbar-mobile-navbar navbar-mobile-root-class-name">
-          <select multiple="true" class="navbar-mobile-select">
-            <option value="Hakkımızda">Hakkımızda</option>
-            <option value="Option 2">Projeler</option>
-            <option value="Option 3">Option 3</option>
-            <option value="Option 3">Option 3</option>
-          </select>
           <header
             data-role="Header"
             class="navbar-mobile-header max-width-container"
@@ -121,6 +124,120 @@
                         class="navbar-mobile-image"
                       />
                     </a>
+                    <div
+                      data-thq="thq-dropdown"
+                      class="navbar-mobile-thq-dropdown list-item"
+                    >
+                      <div
+                        data-thq="thq-dropdown-toggle"
+                        class="navbar-mobile-dropdown-toggle"
+                      >
+                        <span class="navbar-mobile-text">
+                          <span>Menu</span>
+                        </span>
+                        <div
+                          data-thq="thq-dropdown-arrow"
+                          class="navbar-mobile-dropdown-arrow"
+                        >
+                          <svg
+                            viewBox="0 0 1024 1024"
+                            class="navbar-mobile-icon"
+                          >
+                            <path d="M426 726v-428l214 214z"></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <ul
+                        data-thq="thq-dropdown-list"
+                        class="navbar-mobile-dropdown-list"
+                      >
+                        <li
+                          data-thq="thq-dropdown"
+                          class="navbar-mobile-dropdown list-item"
+                        >
+                          <div
+                            data-thq="thq-dropdown-toggle"
+                            class="navbar-mobile-dropdown-toggle1"
+                          >
+                            <span class="navbar-mobile-text1">HAKKIMIZDA</span>
+                          </div>
+                        </li>
+                        <li
+                          data-thq="thq-dropdown"
+                          class="navbar-mobile-dropdown1 list-item"
+                        >
+                          <div
+                            data-thq="thq-dropdown-toggle"
+                            class="navbar-mobile-dropdown-toggle2"
+                          >
+                            <span class="navbar-mobile-text2">PROJELER</span>
+                          </div>
+                        </li>
+                        <li
+                          data-thq="thq-dropdown"
+                          class="navbar-mobile-dropdown2 list-item"
+                        >
+                          <div
+                            data-thq="thq-dropdown-toggle"
+                            class="navbar-mobile-dropdown-toggle3"
+                          >
+                            <span class="navbar-mobile-text3">TEKNİK</span>
+                          </div>
+                        </li>
+                        <li
+                          data-thq="thq-dropdown"
+                          class="navbar-mobile-dropdown3 list-item"
+                        >
+                          <div
+                            data-thq="thq-dropdown-toggle"
+                            class="navbar-mobile-dropdown-toggle4"
+                          >
+                            <span class="navbar-mobile-text4">
+                              Sub-menu Item
+                            </span>
+                          </div>
+                        </li>
+                        <li
+                          data-thq="thq-dropdown"
+                          class="navbar-mobile-dropdown4 list-item"
+                        >
+                          <div
+                            data-thq="thq-dropdown-toggle"
+                            class="navbar-mobile-dropdown-toggle5"
+                          >
+                            <span class="navbar-mobile-text5">
+                              Sub-menu Item
+                            </span>
+                          </div>
+                        </li>
+                        <li
+                          data-thq="thq-dropdown"
+                          class="navbar-mobile-dropdown5 list-item"
+                        >
+                          <div
+                            data-thq="thq-dropdown-toggle"
+                            class="navbar-mobile-dropdown-toggle6"
+                          >
+                            <span class="navbar-mobile-text6">
+                              Sub-menu Item
+                            </span>
+                          </div>
+                        </li>
+                        <li
+                          data-thq="thq-dropdown"
+                          class="navbar-mobile-dropdown6 list-item"
+                        >
+                          <div
+                            data-thq="thq-dropdown-toggle"
+                            class="navbar-mobile-dropdown-toggle7"
+                          >
+                            <span class="navbar-mobile-text7">
+                              Sub-menu Item
+                            </span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
