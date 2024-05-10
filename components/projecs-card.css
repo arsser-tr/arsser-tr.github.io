@@ -68,3 +68,8 @@
 .projecs-card-root-class-name22 {
   margin-right: 350px;
 }
+@media(max-width: 479px) {
+  .projecs-card-root-class-name22 {
+    margin-right: 0px;
+  }
+}

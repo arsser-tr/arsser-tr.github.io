@@ -229,3 +229,10 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
+@media(max-width: 479px) {
+  .section-heading-root-class-name4 {
+    top: 0px;
+    left: 147px;
+    position: static;
+  }
+}

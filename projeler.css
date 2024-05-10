@@ -114,14 +114,15 @@
 
 
 
-@media(max-width: 767px) {
-  .navbar-root-class-name3 {
-    flex: 0;
-    width: 100%;
-    height: auto;
+@media(max-width: 479px) {
+  .navbar-root-class-name {
     display: none;
-    align-self: stretch;
-    margin-left: 0px;
+  }
+  .navbar-root-class-name2 {
+    display: none;
+  }
+  .navbar-root-class-name3 {
+    display: none;
   }
 }
 
@@ -240,30 +241,39 @@
 .navbar-mobile-root-class-name {
   display: none;
 }
-@media(max-width: 767px) {
+.navbar-mobile-root-class-name1 {
+  display: none;
+}
+.navbar-mobile-root-class-name2 {
+  display: none;
+}
+@media(max-width: 479px) {
   .navbar-mobile-left {
-    width: 750px;
-  }
-  .navbar-mobile-text {
-    font-size: 15px;
+    width: 470px;
   }
   .navbar-mobile-text1 {
-    margin-left: -30px;
-    margin-right: -30px;
+    margin-left: -40px;
+    margin-right: -40px;
   }
   .navbar-mobile-image {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: -40px;
+    margin-right: -40px;
   }
   .navbar-mobile-text3 {
     margin-left: 0px;
     margin-right: 0px;
   }
   .navbar-mobile-text-karyer {
-    margin-left: -30px;
-    margin-right: -30px;
+    margin-left: -40px;
+    margin-right: -40px;
   }
   .navbar-mobile-root-class-name {
+    display: flex;
+  }
+  .navbar-mobile-root-class-name1 {
+    display: flex;
+  }
+  .navbar-mobile-root-class-name2 {
     display: flex;
   }
 }
@@ -499,6 +509,13 @@
   margin-right: 0px;
   margin-bottom: 0px;
 }
+@media(max-width: 479px) {
+  .section-heading-root-class-name4 {
+    top: 0px;
+    left: 147px;
+    position: static;
+  }
+}
 
 .projecs-card-blog-post-card {
   width: 300px;
@@ -569,6 +586,11 @@
 
 .projecs-card-root-class-name22 {
   margin-right: 350px;
+}
+@media(max-width: 479px) {
+  .projecs-card-root-class-name22 {
+    margin-right: 0px;
+  }
 }
 
 .con-card-category-card {
@@ -1076,12 +1098,16 @@
 .projeler-projecs-card23 {
   text-decoration: none;
 }
-@media(max-width: 767px) {
+@media(max-width: 479px) {
   .projeler-hizmetlerimiz {
-    height: 3700px;
+    height: 7200px;
+  }
+  .projeler-max-width {
+    height: 7500px;
   }
   .projeler-container1 {
-    width: 650px;
-    height: 3600px;
+    width: 450px;
+    height: 7000px;
+    justify-content: center;
   }
 }

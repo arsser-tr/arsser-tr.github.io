@@ -114,14 +114,15 @@
 
 
 
-@media(max-width: 767px) {
-  .navbar-root-class-name3 {
-    flex: 0;
-    width: 100%;
-    height: auto;
+@media(max-width: 479px) {
+  .navbar-root-class-name {
     display: none;
-    align-self: stretch;
-    margin-left: 0px;
+  }
+  .navbar-root-class-name2 {
+    display: none;
+  }
+  .navbar-root-class-name3 {
+    display: none;
   }
 }
 
@@ -355,6 +356,13 @@
   margin-left: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
+}
+@media(max-width: 479px) {
+  .section-heading-root-class-name4 {
+    top: 0px;
+    left: 147px;
+    position: static;
+  }
 }
 
 .con-card-category-card {
