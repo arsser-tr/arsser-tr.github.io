@@ -1,0 +1,111 @@
+.navbar-mobile-navbar {
+  top: 0;
+  width: 100%;
+  height: 71px;
+  display: flex;
+  z-index: 1000;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+}
+.navbar-mobile-header {
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+}
+.navbar-mobile-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+}
+.navbar-mobile-navbar1 {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-mobile-middle {
+  width: 100%;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 1;
+  border-color: transparent;
+  justify-content: center;
+}
+.navbar-mobile-left {
+  width: 1200px;
+  display: flex;
+  grid-gap: 45px;
+  position: relative;
+  margin-top: 0px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.navbar-mobile-navlink {
+  display: contents;
+}
+.navbar-mobile-image {
+  width: 225px;
+  height: 61px;
+  margin-top: var(--dl-space-space-halfunit);
+  object-fit: cover;
+  margin-left: var(--dl-space-space-sixunits);
+  margin-right: var(--dl-space-space-sixunits);
+  text-decoration: none;
+}
+.navbar-mobile-root-class-name {
+  display: none;
+}
+.navbar-mobile-root-class-name1 {
+  display: none;
+}
+.navbar-mobile-root-class-name2 {
+  display: none;
+}
+@media(max-width: 479px) {
+  .navbar-mobile-select {
+    top: 0px;
+    right: 0px;
+    height: 170px;
+    position: absolute;
+  }
+  .navbar-mobile-header {
+    padding: 5px;
+  }
+  .navbar-mobile-navbar1 {
+    align-items: flex-start;
+  }
+  .navbar-mobile-middle {
+    align-self: flex-start;
+  }
+  .navbar-mobile-left {
+    width: 470px;
+    align-self: flex-start;
+  }
+  .navbar-mobile-image {
+    align-self: flex-start;
+    margin-top: 0px;
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  .navbar-mobile-root-class-name {
+    display: flex;
+  }
+  .navbar-mobile-root-class-name1 {
+    display: flex;
+  }
+  .navbar-mobile-root-class-name2 {
+    display: flex;
+  }
+}
