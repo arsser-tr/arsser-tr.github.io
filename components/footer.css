@@ -394,11 +394,20 @@
   line-height: 22px;
   margin-bottom: var(--dl-space-space-twounits);
 }
+.footer-link5 {
+  display: contents;
+}
 .footer-component4 {
   text-decoration: none;
 }
+.footer-link6 {
+  display: contents;
+}
 .footer-component5 {
   text-decoration: none;
+}
+.footer-link7 {
+  display: contents;
 }
 .footer-component6 {
   text-decoration: none;
