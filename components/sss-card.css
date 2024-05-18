@@ -1,0 +1,144 @@
+.sss-card-blog-post-card {
+  width: 475px;
+  height: 225px;
+  display: flex;
+  position: relative;
+  max-width: 475px;
+  align-self: stretch;
+  max-height: auto;
+  transition: 0.3s;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.sss-card-blog-post-card:hover {
+  transform: scale(1.1);
+}
+.sss-card-text {
+  color: var(--dl-color-gray-black80);
+  width: 475px;
+  height: 75px;
+  font-size: 16px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 0px;
+  font-weight: 500;
+  line-height: 28px;
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: 0px;
+  background-color: #dfe7dd;
+}
+.sss-card-text1 {
+  color: var(--dl-color-gray-black80);
+  width: 475px;
+  height: 150px;
+  font-size: 16px;
+  align-self: flex-start;
+  font-style: normal;
+  margin-top: 0px;
+  font-weight: 500;
+  line-height: 28px;
+  border-radius: var(--dl-radius-radius-radius4);
+  margin-bottom: 0px;
+}
+
+
+
+
+.sss-card-root-class-name4 {
+  margin-top: 200px;
+}
+.sss-card-root-class-name5 {
+  margin-top: 200px;
+}
+.sss-card-root-class-name6 {
+  margin-top: 0px;
+}
+.sss-card-root-class-name7 {
+  margin-top: 0px;
+}
+.sss-card-root-class-name8 {
+  margin-top: 450px;
+}
+.sss-card-root-class-name9 {
+  margin-top: 450px;
+}
+.sss-card-root-class-name10 {
+  margin-top: 175px;
+}
+.sss-card-root-class-name11 {
+  margin-top: 175px;
+}
+@media(max-width: 991px) {
+  .sss-card-blog-post-card {
+    width: 340px;
+    max-width: 340px;
+    align-items: center;
+  }
+  .sss-card-text {
+    width: 340px;
+  }
+  .sss-card-text1 {
+    width: 340px;
+  }
+  .sss-card-root-class-name {
+    width: 340px;
+    height: 225px;
+    max-width: 340px;
+  }
+  .sss-card-root-class-name1 {
+    width: 340px;
+    max-width: 340px;
+    margin-bottom: 350px;
+  }
+  .sss-card-root-class-name2 {
+    width: 340px;
+    max-width: 340px;
+  }
+  .sss-card-root-class-name3 {
+    width: 340px;
+    max-width: 340px;
+    margin-bottom: 200px;
+  }
+  .sss-card-root-class-name4 {
+    width: 340px;
+    max-width: 340px;
+    margin-top: 0px;
+  }
+  .sss-card-root-class-name5 {
+    width: 340px;
+    max-width: 340px;
+    margin-top: 0px;
+  }
+  .sss-card-root-class-name6 {
+    width: 340px;
+    max-width: 340px;
+    margin-bottom: 700px;
+  }
+  .sss-card-root-class-name7 {
+    width: 340px;
+    max-width: 340px;
+    margin-bottom: 200px;
+  }
+  .sss-card-root-class-name8 {
+    width: 340px;
+    max-width: 340px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .sss-card-root-class-name9 {
+    width: 340px;
+    max-width: 340px;
+    margin-top: 0px;
+    margin-bottom: 300px;
+  }
+  .sss-card-root-class-name10 {
+    width: 340px;
+    max-width: 340px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+  .sss-card-root-class-name11 {
+    width: 340px;
+    max-width: 340px;
+  }
+}
