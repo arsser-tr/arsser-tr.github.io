@@ -1,0 +1,108 @@
+.con-card-category-card {
+  flex: 0 0 auto;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+  transition: 0.3s;
+  align-items: center;
+  flex-direction: column;
+}
+.con-card-category-card:hover {
+  color: var(--dl-color-pallet-yellow);
+  transform: scale(1.2);
+}
+.con-card-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-unit);
+  object-position: bottom;
+}
+.con-card-root-class-name {
+  width: 50px;
+  height: 50px;
+  margin-top: -20px;
+  margin-left: 5px;
+}
+.con-card-root-class-name1 {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-bottom: 50px;
+}
+.con-card-root-class-name2 {
+  width: 50px;
+  height: 50px;
+  opacity: 0.4;
+  margin-top: -50px;
+  margin-left: 85px;
+}
+.con-card-root-class-name3 {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-bottom: 50px;
+}
+.con-card-root-class-name4 {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  margin-top: -100px;
+  margin-left: 85px;
+  margin-bottom: 50px;
+}
+.con-card-root-class-name5 {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  margin-top: -100px;
+  margin-left: 85px;
+  margin-bottom: 50px;
+}
+.con-card-root-class-name6 {
+  width: 50px;
+  height: 50px;
+  opacity: 0.4;
+  margin-top: -20px;
+  margin-left: 5px;
+}
+.con-card-root-class-name7 {
+  width: 50px;
+  height: 50px;
+  opacity: 0.4;
+  margin-top: -50px;
+  margin-left: 85px;
+}
+.con-card-root-class-name8 {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-bottom: 50px;
+}
+.con-card-root-class-name9 {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  margin-top: -100px;
+  margin-left: 85px;
+  margin-bottom: 50px;
+}
+.con-card-root-class-name10 {
+  width: 50px;
+  height: 50px;
+  margin-top: -20px;
+  margin-left: 5px;
+}
+.con-card-root-class-name11 {
+  width: 50px;
+  height: 50px;
+  opacity: 0.4;
+  margin-top: -50px;
+  margin-left: 85px;
+}
