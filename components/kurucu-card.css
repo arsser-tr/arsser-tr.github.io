@@ -6,158 +6,363 @@
   max-width: 1080px;
   align-self: stretch;
   max-height: auto;
-  transition: 0.3s;
   align-items: center;
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/kurucularps-600h.jpg");
-}
-.kurucu-card-blog-post-card:hover {
-  transform: scale(1.1);
+  background-image: url("public/kurucular2-600h.jpg");
 }
 .kurucu-card-container {
   display: flex;
   align-self: flex-start;
   align-items: center;
-  margin-left: 275px;
+  margin-left: 250px;
+  margin-bottom: 0px;
   flex-direction: column;
   justify-content: center;
 }
-.kurucu-card-container01 {
+.kurucu-card-container1 {
   flex: 0 0 auto;
-  width: 120px;
+  width: 250px;
   display: flex;
+  margin-top: 0px;
   align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
-.kurucu-card-container02 {
-  flex: 0 0 auto;
-  width: 50px;
-  height: 50px;
+.kurucu-card-link {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
   display: flex;
+  margin-left: 0px;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/webicon-200h.png");
+}
+.kurucu-card-text {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -67px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link01 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 110px;
+  border-width: 0px;
+  margin-right: 500px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/instagramicon1-200h.png");
+}
+.kurucu-card-text03 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  margin-left: -47px;
+}
+.kurucu-card-container2 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 45px;
   align-items: flex-start;
+  margin-bottom: 45px;
+}
+.kurucu-card-link02 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/xicon-200h.png");
+}
+.kurucu-card-text06 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -31px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link03 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 110px;
+  border-width: 0px;
+  margin-right: 500px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/linkediniconnew-200h.png");
+}
+.kurucu-card-text07 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -57px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-container3 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link04 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/youtubetransparanicon2-200h.png");
+}
+.kurucu-card-text08 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -37px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link05 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 110px;
+  border-width: 0px;
+  margin-right: 500px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/mailbetransparanicon-200h.png");
+}
+.kurucu-card-text09 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  margin-left: -70px;
+}
+.kurucu-card-container4 {
+  display: flex;
+  align-self: flex-end;
+  margin-top: -280px;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 240px;
+  margin-bottom: 0px;
   flex-direction: column;
+  justify-content: center;
+}
+.kurucu-card-container5 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 0px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link06 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 0px;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/webicon-200h.png");
+}
+.kurucu-card-text12 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -57px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link07 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 110px;
+  border-width: 0px;
+  margin-right: 500px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/instagramicon1-200h.png");
+}
+.kurucu-card-text15 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  margin-left: -29px;
+}
+.kurucu-card-container6 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 45px;
+  align-items: flex-start;
+  margin-bottom: 45px;
+}
+.kurucu-card-link08 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/xicon-200h.png");
+}
+.kurucu-card-text16 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -31px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link09 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 110px;
+  border-width: 0px;
+  margin-right: 500px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/linkediniconnew-200h.png");
+}
+.kurucu-card-text18 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -80px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-container7 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
 .kurucu-card-button {
   fill: transparent;
   color: transparent;
-  width: 50px;
-  height: 50px;
-  margin-right: 500px;
-  background-size: cover;
-  background-image: url("public/mapicon1-200h.jpg");
-}
-.kurucu-card-container03 {
-  flex: 0 0 auto;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   display: flex;
-  align-items: flex-start;
-  margin-left: 20px;
-  flex-direction: column;
+  opacity: 0.2;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  background-image: url("public/youtubetransparanicon2-200h.png");
 }
-.kurucu-card-button1 {
+.kurucu-card-text19 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link10 {
   fill: transparent;
   color: transparent;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 110px;
+  border-width: 0px;
   margin-right: 500px;
+  flex-direction: row;
   background-size: cover;
-  background-image: url("public/instagramicon1-200h.png");
+  text-decoration: none;
+  background-image: url("public/mailbetransparanicon-200h.png");
 }
-.kurucu-card-container04 {
-  flex: 0 0 auto;
-  width: 120px;
-  display: flex;
-  margin-top: 20px;
-  align-items: flex-start;
-  margin-bottom: 20px;
-}
-.kurucu-card-container05 {
-  flex: 0 0 auto;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.kurucu-card-button2 {
-  fill: transparent;
-  color: transparent;
-  width: 50px;
-  height: 50px;
-  margin-right: 500px;
-  background-size: cover;
-  background-image: url("public/linkedinicon-200h.png");
-}
-.kurucu-card-container06 {
-  flex: 0 0 auto;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: flex-start;
-  margin-left: 20px;
-  flex-direction: column;
-}
-.kurucu-card-button3 {
-  fill: transparent;
-  color: transparent;
-  width: 50px;
-  height: 50px;
-  margin-right: 500px;
-  background-size: cover;
-  background-image: url("public/xicon-200h.png");
-}
-.kurucu-card-container07 {
-  flex: 0 0 auto;
-  width: 120px;
-  display: flex;
-  align-items: flex-start;
-}
-.kurucu-card-container08 {
-  flex: 0 0 auto;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.kurucu-card-button4 {
-  fill: transparent;
-  color: transparent;
-  width: 50px;
-  height: 50px;
-  margin-right: 500px;
-  background-size: cover;
-  background-image: url("public/youtubeicon1-200h.jpg");
-}
-.kurucu-card-container09 {
-  flex: 0 0 auto;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: flex-start;
-  margin-left: 20px;
-  flex-direction: column;
-}
-.kurucu-card-button5 {
-  fill: transparent;
-  color: transparent;
-  width: 50px;
-  height: 50px;
-  margin-right: 500px;
-  background-size: cover;
-  background-image: url("public/mailicon1-200h.jpg");
+.kurucu-card-text20 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  margin-left: -60px;
 }
 .kurucu-card-root-class-name {
-  width: 900px;
-  height: 450px;
-  align-self: center;
-}
-@media(max-width: 991px) {
-  .kurucu-card-root-class-name {
-    width: 320px;
-    height: 160px;
-    max-width: 1080px;
-  }
+  height: 550px;
+  align-self: flex-end;
 }

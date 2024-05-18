@@ -650,159 +650,1077 @@
   max-width: 1080px;
   align-self: stretch;
   max-height: auto;
-  transition: 0.3s;
   align-items: center;
   flex-direction: column;
   background-size: cover;
   justify-content: center;
-  background-image: url("public/kurucularps-600h.jpg");
-}
-.kurucu-card-blog-post-card:hover {
-  transform: scale(1.1);
+  background-image: url("public/kurucular2-600h.jpg");
 }
 .kurucu-card-container {
   display: flex;
   align-self: flex-start;
   align-items: center;
-  margin-left: 275px;
+  margin-left: 250px;
+  margin-bottom: 0px;
   flex-direction: column;
   justify-content: center;
 }
-.kurucu-card-container01 {
+.kurucu-card-container1 {
   flex: 0 0 auto;
-  width: 120px;
+  width: 250px;
   display: flex;
+  margin-top: 0px;
   align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
-.kurucu-card-container02 {
-  flex: 0 0 auto;
-  width: 50px;
-  height: 50px;
+.kurucu-card-link {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
   display: flex;
+  margin-left: 0px;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/webicon-200h.png");
+}
+.kurucu-card-text {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -67px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link01 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 110px;
+  border-width: 0px;
+  margin-right: 500px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/instagramicon1-200h.png");
+}
+.kurucu-card-text03 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  margin-left: -47px;
+}
+.kurucu-card-container2 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 45px;
   align-items: flex-start;
+  margin-bottom: 45px;
+}
+.kurucu-card-link02 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/xicon-200h.png");
+}
+.kurucu-card-text06 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -31px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link03 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 110px;
+  border-width: 0px;
+  margin-right: 500px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/linkediniconnew-200h.png");
+}
+.kurucu-card-text07 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -57px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-container3 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link04 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/youtubetransparanicon2-200h.png");
+}
+.kurucu-card-text08 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -37px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link05 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 110px;
+  border-width: 0px;
+  margin-right: 500px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/mailbetransparanicon-200h.png");
+}
+.kurucu-card-text09 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  margin-left: -70px;
+}
+.kurucu-card-container4 {
+  display: flex;
+  align-self: flex-end;
+  margin-top: -280px;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 240px;
+  margin-bottom: 0px;
   flex-direction: column;
+  justify-content: center;
+}
+.kurucu-card-container5 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 0px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link06 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 0px;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/webicon-200h.png");
+}
+.kurucu-card-text12 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -57px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link07 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 110px;
+  border-width: 0px;
+  margin-right: 500px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/instagramicon1-200h.png");
+}
+.kurucu-card-text15 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  margin-left: -29px;
+}
+.kurucu-card-container6 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 45px;
+  align-items: flex-start;
+  margin-bottom: 45px;
+}
+.kurucu-card-link08 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/xicon-200h.png");
+}
+.kurucu-card-text16 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -31px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link09 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 110px;
+  border-width: 0px;
+  margin-right: 500px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/linkediniconnew-200h.png");
+}
+.kurucu-card-text18 {
+  color: rgb(255, 255, 255);
+  width: auto;
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -80px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-container7 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
 .kurucu-card-button {
   fill: transparent;
   color: transparent;
-  width: 50px;
-  height: 50px;
-  margin-right: 500px;
-  background-size: cover;
-  background-image: url("public/mapicon1-200h.jpg");
-}
-.kurucu-card-container03 {
-  flex: 0 0 auto;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   display: flex;
-  align-items: flex-start;
-  margin-left: 20px;
-  flex-direction: column;
+  opacity: 0.2;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  background-image: url("public/youtubetransparanicon2-200h.png");
 }
-.kurucu-card-button1 {
+.kurucu-card-text19 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: 0px;
+}
+.kurucu-card-link10 {
   fill: transparent;
   color: transparent;
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 110px;
+  border-width: 0px;
   margin-right: 500px;
+  flex-direction: row;
   background-size: cover;
-  background-image: url("public/instagramicon1-200h.png");
+  text-decoration: none;
+  background-image: url("public/mailbetransparanicon-200h.png");
 }
-.kurucu-card-container04 {
-  flex: 0 0 auto;
-  width: 120px;
-  display: flex;
-  margin-top: 20px;
-  align-items: flex-start;
-  margin-bottom: 20px;
-}
-.kurucu-card-container05 {
-  flex: 0 0 auto;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.kurucu-card-button2 {
-  fill: transparent;
-  color: transparent;
-  width: 50px;
-  height: 50px;
-  margin-right: 500px;
-  background-size: cover;
-  background-image: url("public/linkedinicon-200h.png");
-}
-.kurucu-card-container06 {
-  flex: 0 0 auto;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: flex-start;
-  margin-left: 20px;
-  flex-direction: column;
-}
-.kurucu-card-button3 {
-  fill: transparent;
-  color: transparent;
-  width: 50px;
-  height: 50px;
-  margin-right: 500px;
-  background-size: cover;
-  background-image: url("public/xicon-200h.png");
-}
-.kurucu-card-container07 {
-  flex: 0 0 auto;
-  width: 120px;
-  display: flex;
-  align-items: flex-start;
-}
-.kurucu-card-container08 {
-  flex: 0 0 auto;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.kurucu-card-button4 {
-  fill: transparent;
-  color: transparent;
-  width: 50px;
-  height: 50px;
-  margin-right: 500px;
-  background-size: cover;
-  background-image: url("public/youtubeicon1-200h.jpg");
-}
-.kurucu-card-container09 {
-  flex: 0 0 auto;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: flex-start;
-  margin-left: 20px;
-  flex-direction: column;
-}
-.kurucu-card-button5 {
-  fill: transparent;
-  color: transparent;
-  width: 50px;
-  height: 50px;
-  margin-right: 500px;
-  background-size: cover;
-  background-image: url("public/mailicon1-200h.jpg");
+.kurucu-card-text20 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  margin-left: -60px;
 }
 .kurucu-card-root-class-name {
-  width: 900px;
-  height: 450px;
-  align-self: center;
+  height: 550px;
+  align-self: flex-end;
 }
+
+.kurucu-card-mobil-blog-post-card {
+  width: 1080px;
+  height: 540px;
+  display: flex;
+  position: relative;
+  max-width: 1080px;
+  align-self: stretch;
+  max-height: auto;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/kurucular2-600h.jpg");
+}
+.kurucu-card-mobil-container {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 250px;
+  margin-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+.kurucu-card-mobil-container01 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 0px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-link {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 0px;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/webicon-200h.png");
+}
+.kurucu-card-mobil-text {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -67px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-container02 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 45px;
+  align-items: flex-start;
+  margin-bottom: 45px;
+}
+.kurucu-card-mobil-link01 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/xicon-200h.png");
+}
+.kurucu-card-mobil-text03 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -31px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-container03 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-link02 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/youtubetransparanicon2-200h.png");
+}
+.kurucu-card-mobil-text04 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -37px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-container04 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-link03 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/youtubetransparanicon2-200h.png");
+}
+.kurucu-card-mobil-text05 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -37px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-container05 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-link04 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/youtubetransparanicon2-200h.png");
+}
+.kurucu-card-mobil-text06 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -37px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-container06 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-link05 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/youtubetransparanicon2-200h.png");
+}
+.kurucu-card-mobil-text07 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -37px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-container07 {
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  margin-left: 250px;
+  margin-bottom: 0px;
+  flex-direction: column;
+  justify-content: center;
+}
+.kurucu-card-mobil-container08 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 0px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-link06 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  margin-left: 0px;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/webicon-200h.png");
+}
+.kurucu-card-mobil-text08 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -67px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-container09 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 45px;
+  align-items: flex-start;
+  margin-bottom: 45px;
+}
+.kurucu-card-mobil-link07 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/xicon-200h.png");
+}
+.kurucu-card-mobil-text11 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -31px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-container10 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-link08 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/youtubetransparanicon2-200h.png");
+}
+.kurucu-card-mobil-text12 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -37px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-container11 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-link09 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/youtubetransparanicon2-200h.png");
+}
+.kurucu-card-mobil-text13 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -37px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-container12 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-link10 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/youtubetransparanicon2-200h.png");
+}
+.kurucu-card-mobil-text14 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -37px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-container13 {
+  flex: 0 0 auto;
+  width: 250px;
+  display: flex;
+  margin-top: 10px;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+.kurucu-card-mobil-link11 {
+  fill: transparent;
+  color: transparent;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  border-width: 0px;
+  margin-right: 0px;
+  flex-direction: row;
+  background-size: cover;
+  text-decoration: none;
+  background-image: url("public/youtubetransparanicon2-200h.png");
+}
+.kurucu-card-mobil-text15 {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  align-self: center;
+  margin-top: 90px;
+  text-align: left;
+  margin-left: -37px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
 @media(max-width: 991px) {
-  .kurucu-card-root-class-name {
-    width: 320px;
-    height: 160px;
-    max-width: 1080px;
+  .kurucu-card-mobil-blog-post-card {
+    width: 340px;
+    height: 340px;
+    background-size: cover;
+    background-image: url("public/kurucularmobil-1100w.jpg");
+  }
+  .kurucu-card-mobil-container {
+    align-self: center;
+    margin-top: 30px;
+    margin-left: -70px;
+  }
+  .kurucu-card-mobil-container01 {
+    width: 30px;
+    height: 30px;
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .kurucu-card-mobil-link {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-image: url("public/webicon-200h.png");
+  }
+  .kurucu-card-mobil-text {
+    color: rgb(255, 255, 255);
+    font-size: 4px;
+    margin-top: 35px;
+    margin-left: -20px;
+  }
+  .kurucu-card-mobil-container02 {
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .kurucu-card-mobil-link01 {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin-top: 20px;
+    padding-top: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-image: url("public/instagramicon1-200h.png");
+  }
+  .kurucu-card-mobil-text03 {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+  }
+  .kurucu-card-mobil-container03 {
+    width: 30px;
+    height: 30px;
+  }
+  .kurucu-card-mobil-link02 {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-image: url("public/linkediniconnew-200h.png");
+  }
+  .kurucu-card-mobil-text04 {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+  }
+  .kurucu-card-mobil-container04 {
+    width: 30px;
+    height: 30px;
+  }
+  .kurucu-card-mobil-link03 {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-image: url("public/xicon-200h.png");
+  }
+  .kurucu-card-mobil-text05 {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+  }
+  .kurucu-card-mobil-container05 {
+    width: 30px;
+    height: 30px;
+  }
+  .kurucu-card-mobil-link04 {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .kurucu-card-mobil-text06 {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+  }
+  .kurucu-card-mobil-container06 {
+    width: 30px;
+    height: 30px;
+  }
+  .kurucu-card-mobil-link05 {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin-top: 20px;
+    padding-top: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-image: url("public/mailbetransparanicon-200h.png");
+  }
+  .kurucu-card-mobil-text07 {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+  }
+  .kurucu-card-mobil-container07 {
+    align-self: center;
+    margin-top: -240px;
+    margin-left: 70px;
+  }
+  .kurucu-card-mobil-container08 {
+    width: 30px;
+    height: 30px;
+    align-self: flex-start;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .kurucu-card-mobil-link06 {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin-top: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-image: url("public/webicon-200h.png");
+  }
+  .kurucu-card-mobil-text08 {
+    color: rgb(255, 255, 255);
+    font-size: 4px;
+    margin-top: 35px;
+    margin-left: -20px;
+  }
+  .kurucu-card-mobil-container09 {
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .kurucu-card-mobil-link07 {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin-top: 20px;
+    padding-top: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-image: url("public/instagramicon1-200h.png");
+  }
+  .kurucu-card-mobil-text11 {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+  }
+  .kurucu-card-mobil-container10 {
+    width: 30px;
+    height: 30px;
+  }
+  .kurucu-card-mobil-link08 {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-image: url("public/linkediniconnew-200h.png");
+  }
+  .kurucu-card-mobil-text12 {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+  }
+  .kurucu-card-mobil-container11 {
+    width: 30px;
+    height: 30px;
+  }
+  .kurucu-card-mobil-link09 {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-image: url("public/xicon-200h.png");
+  }
+  .kurucu-card-mobil-text13 {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+  }
+  .kurucu-card-mobil-container12 {
+    width: 30px;
+    height: 30px;
+  }
+  .kurucu-card-mobil-link10 {
+    width: 30px;
+    height: 30px;
+    opacity: 0.2;
+    padding: 0px;
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .kurucu-card-mobil-text14 {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+  }
+  .kurucu-card-mobil-container13 {
+    width: 30px;
+    height: 30px;
+  }
+  .kurucu-card-mobil-link11 {
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    margin-top: 20px;
+    padding-top: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-image: url("public/mailbetransparanicon-200h.png");
+  }
+  .kurucu-card-mobil-text15 {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
   }
 }
 
@@ -885,6 +1803,35 @@
   margin-top: -50px;
   margin-left: 85px;
 }
+.con-card-root-class-name8 {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-bottom: 50px;
+}
+.con-card-root-class-name9 {
+  width: 50px;
+  height: 50px;
+  opacity: 1;
+  margin-top: -100px;
+  margin-left: 85px;
+  margin-bottom: 50px;
+}
+.con-card-root-class-name10 {
+  width: 50px;
+  height: 50px;
+  margin-top: -20px;
+  margin-left: 5px;
+}
+.con-card-root-class-name11 {
+  width: 50px;
+  height: 50px;
+  opacity: 0.4;
+  margin-top: -50px;
+  margin-left: 85px;
+}
 
 .footer-footer {
   flex: 0 0 auto;
@@ -919,7 +1866,11 @@
 .footer-container {
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
+  margin-top: 0px;
   align-items: flex-start;
+  margin-left: -300px;
+  margin-right: 500px;
+  margin-bottom: 0px;
   flex-direction: column;
 }
 .footer-arsserfooterlogo {
@@ -972,10 +1923,10 @@
   display: flex;
   grid-gap: var(--dl-space-space-threeunits);
   align-self: center;
-  margin-top: 400px;
+  margin-top: 100px;
   align-items: flex-start;
-  margin-left: -460px;
-  margin-right: 0px;
+  margin-left: -400px;
+  margin-right: 400px;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -983,8 +1934,8 @@
   width: 50%;
   display: flex;
   align-items: flex-start;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -1019,7 +1970,7 @@
   width: 50%;
   display: flex;
   align-items: flex-start;
-  margin-left: 10px;
+  margin-left: 50px;
   margin-right: 0px;
   flex-direction: column;
   justify-content: flex-start;
@@ -1077,6 +2028,169 @@
   align-self: center;
   text-decoration: none;
 }
+.footer-footerm-mobl {
+  width: 320px;
+  display: none;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-threeunits);
+  padding-left: 0px;
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.footer-container3 {
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footer-arsserfooterlogo1 {
+  width: 300px;
+  object-fit: cover;
+}
+.footer-text17 {
+  color: rgb(255, 255, 255);
+  margin-top: 40px;
+  margin-left: var(--dl-space-space-twounits);
+  margin-bottom: -120px;
+}
+.footer-maplogo11 {
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+  object-fit: cover;
+}
+.footer-maplogo21 {
+  width: 25px;
+  height: 25px;
+  margin-top: 50px;
+  object-fit: cover;
+}
+.footer-telephonelogo1 {
+  width: 25px;
+  height: 25px;
+  margin-top: 30px;
+  object-fit: cover;
+}
+.footer-text25 {
+  color: rgb(255, 255, 255);
+  margin-top: -25px;
+  margin-left: var(--dl-space-space-twounits);
+}
+.footer-maillogo1 {
+  width: 25px;
+  height: 25px;
+  margin-top: 20px;
+  object-fit: cover;
+}
+.footer-link4 {
+  color: rgb(255, 255, 255);
+  margin-top: -25px;
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.footer-links-container1 {
+  width: 320px;
+  display: flex;
+  grid-gap: var(--dl-space-space-threeunits);
+  align-self: center;
+  margin-top: 400px;
+  align-items: flex-start;
+  margin-left: -460px;
+  margin-right: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-container4 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 0px;
+  margin-right: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer-text30 {
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  font-style: normal;
+  margin-top: 40px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.footer-component4 {
+  text-decoration: none;
+}
+.footer-component5 {
+  text-decoration: none;
+}
+.footer-component6 {
+  text-decoration: none;
+}
+.footer-container5 {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  margin-left: 10px;
+  margin-right: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.footer-text31 {
+  color: #ffffff;
+  font-size: 23px;
+  align-self: center;
+  font-style: normal;
+  margin-top: 40px;
+  font-weight: 500;
+  line-height: 14px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.footer-navlink4 {
+  color: #ffffff;
+  font-size: 16px;
+  align-self: center;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.footer-navlink5 {
+  color: #ffffff;
+  font-size: 16px;
+  align-self: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.footer-navlink6 {
+  color: #ffffff;
+  font-size: 16px;
+  align-self: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.footer-text32 {
+  color: #ffffff;
+  font-size: 16px;
+  align-self: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.footer-text33 {
+  color: #ffffff;
+  font-size: 16px;
+  align-self: center;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.footer-navlink7 {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  align-self: center;
+  text-decoration: none;
+}
 .footer-banner {
   flex: 0 0 auto;
   width: auto;
@@ -1092,7 +2206,7 @@
   flex-direction: column;
   justify-content: center;
 }
-.footer-text17 {
+.footer-text34 {
   color: rgb(255, 255, 255);
   font-size: 14px;
   margin-top: 25px;
@@ -1132,6 +2246,9 @@
 
 
 @media(max-width: 991px) {
+  .footer-footer1 {
+    display: none;
+  }
   .footer-container {
     width: 320px;
   }
@@ -1139,6 +2256,18 @@
     text-align: center;
   }
   .footer-container2 {
+    margin-top: 20px;
+  }
+  .footer-footerm-mobl {
+    display: flex;
+  }
+  .footer-container3 {
+    width: 320px;
+  }
+  .footer-text30 {
+    text-align: center;
+  }
+  .footer-container5 {
     margin-top: 20px;
   }
 }
@@ -1170,14 +2299,15 @@
 }
 .hakkimizda-max-width {
   width: 100%;
-  height: 1180px;
+  height: 1300px;
+  position: relative;
   align-self: center;
   justify-content: flex-start;
 }
 .hakkimizda-container1 {
   flex: 0 0 auto;
   width: 1100px;
-  height: 1100px;
+  height: 600px;
   margin: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -1236,9 +2366,25 @@
   position: absolute;
   margin-top: 200px;
 }
+.hakkimizda-full-width-banner {
+  width: 1920PX;
+  height: 550px;
+  display: flex;
+  align-items: stretch;
+  padding-top: 0px;
+  background-color: #000000;
+}
+.hakkimizda-full-width-banner-mobl {
+  width: 1920PX;
+  height: 550px;
+  display: none;
+  align-items: stretch;
+  padding-top: 0px;
+  background-color: #000000;
+}
 @media(max-width: 991px) {
   .hakkimizda-max-width {
-    height: 1900px;
+    height: 2000px;
     position: relative;
   }
   .hakkimizda-container1 {
@@ -1248,5 +2394,27 @@
   .hakkimizda-container2 {
     width: 320px;
     max-width: 1500px;
+  }
+  .hakkimizda-full-width-banner {
+    width: 320px;
+    height: 340px;
+    display: none;
+    position: relative;
+    align-self: center;
+    align-items: stretch;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  .hakkimizda-full-width-banner-mobl {
+    width: 1080px;
+    height: 340px;
+    display: flex;
+    position: relative;
+    align-self: center;
+    margin-top: -420px;
+    align-items: stretch;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 }
